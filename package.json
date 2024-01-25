@@ -1,6 +1,12 @@
 {
   "type": "module",
   "devDependencies": {
-    "vitest": "^1.2.1"
+    "@vitest/browser": "1.2.1",
+    "playwright": "1.41.1",
+    "storybook": "7.6.10",
+    "vitest": "1.2.1"
+  },
+  "scripts": {
+    "test": "vitest"
   }
 }
